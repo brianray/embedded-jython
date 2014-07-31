@@ -1,6 +1,8 @@
 __author__ = 'brray'
 
-class Example:
+from com.brianray.embedded_jython import ExampleType
+
+class Example(ExampleType):
     def say_hello(self):
         print "Hello"
 
